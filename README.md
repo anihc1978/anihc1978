@@ -1,16 +1,35 @@
-## Hi there 👋
+# Hi, I'm Eduardo San Martin 👋
 
-<!--
-**anihc1978/anihc1978** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Python Developer | AI & Data Analysis Enthusiast**
+📍 Perth, Western Australia
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## About Me
+
+I'm a developer based in Perth with a passion for Python, artificial intelligence, and data-driven solutions. I enjoy building tools that turn complex data into actionable insights, and I'm continuously exploring the latest developments in machine learning and automation.
+
+- 🔭 Currently working on Python projects in AI and data analysis
+- 🌱 Learning machine learning techniques and best practices
+- 💡 Interested in automation, data pipelines, and predictive modelling
+- 📫 Reach me at: eduardosmw@gmail.com
+
+---
+
+## Skills & Technologies
+
+**Languages:** Python
+**Areas:** Data Analysis, Machine Learning, Automation
+**Tools:** VS Code, Git, GitHub
+
+---
+
+## Projects
+
+| Repository | Description |
+|---|---|
+| [python-for-ai](https://github.com/anihc1978/python-for-ai) | Python scripts and notebooks for AI and data analysis |
+
+---
+
+*Always learning, always building.*
