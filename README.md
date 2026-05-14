@@ -90,7 +90,9 @@ Currently completing [Dave Ebbelaar's Python for AI](https://python.datalumina.c
 ## Learning Journey
 
 ```
-IBM Data Science & ML Certificates
+IBM Python for Data Science, AI & Development
+IBM Machine Learning with Python
+IBM Developing AI Applications with Python and Flask
         ↓
 EDA, Pandas, scikit-learn — M5 Forecasting, GDP extraction, loan prediction
         ↓
