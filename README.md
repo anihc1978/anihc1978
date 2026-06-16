@@ -1,113 +1,71 @@
 <div align="center">
 
-# Eduardo San Martin
+# Eduardo San Martín Wu
 
-### Python Developer · AI Engineer · Builder
+### AI Engineer · Python / Back-End Developer · Generative AI Specialist
 
 [![Email](https://img.shields.io/badge/Email-eduardosmw%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:eduardosmw@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-eduardo--sanmartin--wu-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/eduardo-sanmartin-wu)
 [![Location](https://img.shields.io/badge/Perth-Western%20Australia-0078D4?style=flat-square)](https://github.com/anihc1978)
 
 </div>
 
 ---
 
-I build AI-powered tools and data pipelines. I came to software through data — started with machine learning and IBM certifications, then got serious about Python fundamentals and modern AI development workflows. Now I ship across the full stack: from exploratory data analysis to production-deployed AI apps with live URLs.
+AI Engineer & Consultant with 5 years building production LLM applications, agentic AI systems, and Generative AI solutions. I specialise in production back-end service engineering, API design, prompt engineering, LLM orchestration, RAG pipelines, and Google Cloud AI / Vertex AI. I have shipped 8 AI projects, including a production multi-tenant RAG sommelier system and an AI workflow orchestrator, and I am currently building a CPG demand forecasting pipeline.
 
-Currently completing [Dave Ebbelaar's Python for AI](https://python.datalumina.com) course while building real projects inspired by his [AI Cookbook](https://github.com/daveebbelaar/ai-cookbook).
-
----
-
-## What I'm Building
-
-- **Self-Improving Agent** — Claude critiques and rewrites its own output across iterations until quality is reached — [live demo ↗](https://self-improving-agent-omega.vercel.app)
-- **Agentic RAG** — Claude searches documents using tools (list, grep, read) with live reasoning steps — no pre-embedding — [live demo ↗](https://agentic-rag-ai.vercel.app)
-- **Memory Agent** — AI assistant that remembers you across every conversation using Mem0 — [live demo ↗](https://mem0-memory-agent.vercel.app)
-- **AI Email Client** — production PWA that brings Claude AI into your inbox across Gmail, Office 365, and IMAP — [live demo ↗](https://ai-email-client-mu.vercel.app)
-- **YouTube Transcript Analyzer** — Python MCP server + web app for transcript analysis with Claude AI — [live demo ↗](https://yt-transcript-ai-six.vercel.app)
-- **RAG Document Q&A** — full-stack app to chat with your own documents using OpenAI and Next.js — [live demo ↗](https://docling-rag.vercel.app)
+Holder of the IBM Generative AI Engineering Professional Certificate plus 35+ AI / Data Science credentials. Available for remote AI engineering roles across Australia, open to relocating to Melbourne.
 
 ---
 
-## Projects
+## Featured Projects
 
-### AI Applications
+**[Margaret River Wine Sommelier](https://web-production-82a23.up.railway.app/app)** — Production multi-tenant RAG system serving 15 Margaret River wineries from a single FastAPI backend; each winery has a dedicated ChromaDB collection trained on real catalogues, tasting notes, awards and menus. Claude generates structured sommelier responses with confidence scores, food pairings and source citations.
+`Python · FastAPI · ChromaDB · vector search · Claude API · Railway`
 
-| Project | Description | Stack | Live |
-|---------|-------------|-------|------|
-| [self-improving-agent](https://github.com/anihc1978/self-improving-agent) | Agent that writes a draft, critiques it (score + weaknesses), rewrites, repeats — feedback loop pattern | Next.js · TypeScript · Claude API | [↗](https://self-improving-agent-omega.vercel.app) |
-| [agentic-rag](https://github.com/anihc1978/agentic-rag) | Claude uses list_files / grep / read_file tools to search docs — live reasoning panel with citations | Next.js · TypeScript · Claude API | [↗](https://agentic-rag-ai.vercel.app) |
-| [mem0-memory-agent](https://github.com/anihc1978/mem0-memory-agent) | AI assistant with persistent long-term memory across sessions powered by Mem0 Cloud | Next.js · TypeScript · Claude API · Mem0 | [↗](https://mem0-memory-agent.vercel.app) |
-| [ai-email-client](https://github.com/anihc1978/ai-email-client) | AI-first email PWA — Gmail, Office 365 & IMAP with Claude AI summaries, reply drafts and prioritisation | Next.js · TypeScript · Claude API | [↗](https://ai-email-client-mu.vercel.app) |
-| [python-mcp-automation-claude-desktop](https://github.com/anihc1978/python-mcp-automation-claude-desktop) | Python MCP server for Claude Desktop + web app for YouTube transcript analysis | Python · FastMCP · Next.js · Claude API | [↗](https://yt-transcript-ai-six.vercel.app) |
-| [docling-rag](https://github.com/anihc1978/docling-rag) | RAG document Q&A — upload any PDF or URL, ask questions, get cited answers | OpenAI · Next.js · TypeScript | [↗](https://docling-rag.vercel.app) |
+**[TutorMate AI — Workflow Orchestrator](https://tutormate-workflow-production.up.railway.app)** — AI workflow orchestrator automating inbound message triage for an EdTech platform: Claude classifies intent, urgency and sentiment, extracts entities, routes via a configurable business-rules engine, and drafts a personalised reply. 5-step pipeline across 7 intent categories with dashboard, analytics and audit trail.
+`Python · FastAPI · Claude (Haiku) · SQLite · Railway`
 
-### Data & Machine Learning
+**[Agentic RAG](https://agentic-rag-ai.vercel.app)** — Document search agent where Claude autonomously selects and calls tools (list_files, grep, read_file) — no pre-embedding or vector DB required. Stateless API designed for Vercel serverless constraints.
+`Python · Claude API · Vercel`
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [cpg-forecasting-eda](https://github.com/anihc1978/cpg-forecasting-eda) | M5 Forecasting EDA — CPG sales analysis and visualisation | Python · Pandas · Jupyter |
-| [ibm-python-final-project-loan-analysis](https://github.com/anihc1978/ibm-python-final-project-loan-analysis) | IBM ML capstone — loan repayment prediction with SVM, KNN, decision tree and logistic regression | Python · scikit-learn |
-| [ibm-gdp-data-extraction](https://github.com/anihc1978/ibm-gdp-data-extraction) | IBM capstone — global GDP data extraction via web scraping and Pandas | Python · BeautifulSoup |
+**Also shipped:** Self-Improving Agent · Memory Agent (Mem0) · AI Email Client (PWA) · YouTube Transcript Analyzer (MCP server) · RAG Document Q&A
 
-### Learning
-
-| Project | Description |
-|---------|-------------|
-| [python-for-ai](https://github.com/anihc1978/python-for-ai) | Exercises and projects from Datalumina's Python for AI course |
-| [ai-engineer-notes](https://github.com/anihc1978/ai-engineer-notes) | Study notes, cheat sheets and references for AI engineering |
+**In progress:** `cpg-demand-forecaster` — CPG demand forecasting on M5 / Walmart sell-out data (XGBoost, LightGBM, Prophet, WMAPE benchmarking).
 
 ---
 
-## Skills
+## Technical Skills
 
-**Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+**AI & LLMs** — Python (5 yrs) · LLMs · Generative AI · Prompt Engineering (zero-shot, few-shot, CoT) · Agentic AI · RAG · LLM orchestration · OpenAI · Gemini · Claude / Anthropic · MCP servers (FastMCP) · Mem0
 
-**AI & Agents**
-![Claude API](https://img.shields.io/badge/Claude%20API-D97757?style=flat-square)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-FF6B35?style=flat-square)
-![Mem0](https://img.shields.io/badge/Mem0-6366F1?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-10B981?style=flat-square)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+**ML & Data Science** — scikit-learn · XGBoost · LightGBM · Prophet · time-series forecasting · WMAPE · EDA · feature engineering · pandas · NumPy · matplotlib · Jupyter
 
-**Web & Infra**
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+**Cloud & Infra** — Google Cloud AI · Vertex AI · Railway · Vercel · ChromaDB · Docker · GitHub Actions CI/CD · FastAPI · Flask · Next.js · Streamlit · REST APIs · SSE streaming · PWA
 
-**Tooling**
-![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square)
-![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=flat-square)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+**Dev Tools** — Cursor · VS Code · Git · GitHub · Jupyter · venv · uv · ruff · dotenv · OOP
+
+**Web3** — Solidity · smart contracts · NFT minting · MetaMask · Coinbase Wallet · OpenSea · Shopify · tokengated commerce
+
+**Languages** — English (native) · Spanish (fluent)
 
 ---
 
-## Learning Journey
+## Certifications — Top Credentials
 
-```
-IBM Python for Data Science, AI & Development
-IBM Machine Learning with Python
-IBM Developing AI Applications with Python and Flask
-        ↓
-EDA, Pandas, scikit-learn — M5 Forecasting, GDP extraction, loan prediction
-        ↓
-Python for AI by Datalumina — fundamentals, uv, Ruff, project structure
-        ↓
-6 production AI apps — RAG, Agentic RAG, MCP servers, memory agents,
-        feedback loops, AI email client (Next.js + Claude API + Vercel)
-        ↓
-Next: multi-agent systems · LangGraph · production ML pipelines
-```
+- **IBM Generative AI Engineering Professional Certificate** — IBM
+- **IBM AI Product Manager Professional Certificate** — IBM
+- IBM Machine Learning with Python · IBM Data Analysis with Python · IBM Python for Data Science, AI & Development
+- AI Agents in LangGraph · ChatGPT Prompt Engineering for Developers — DeepLearning.AI
+- Google AI Essentials · Google Prompting Essentials — Google
+- Generative AI Leader Professional Certificate — Google Cloud
+
+Plus 26+ additional credentials from IBM, Google, Google Cloud, DeepLearning.AI and Kaggle. Full list on [LinkedIn](https://linkedin.com/in/eduardo-sanmartin-wu).
 
 ---
 
 <div align="center">
 
-*Building in public from Perth, WA.*
+Building in public from Perth, WA.
 
 </div>
