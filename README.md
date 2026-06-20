@@ -12,7 +12,7 @@
 
 ---
 
-AI Engineer & Consultant with 5 years building production LLM applications, agentic AI systems, and Generative AI solutions. I specialise in production back-end service engineering, API design, prompt engineering, LLM orchestration, RAG pipelines, and Google Cloud AI / Vertex AI. I have shipped 8 AI projects, including a production multi-tenant RAG sommelier system and an AI workflow orchestrator, and I am currently building a CPG demand forecasting pipeline.
+AI Engineer & Consultant with 5 years building production LLM applications, agentic AI systems, and Generative AI solutions. I specialise in production back-end service engineering, API design, prompt engineering, LLM orchestration, RAG pipelines, and Google Cloud AI / Vertex AI. I have shipped 9 AI projects, including a production multi-tenant RAG sommelier system, a full-stack GenAI finance app, and an AI workflow orchestrator, and I am currently building a CPG demand forecasting pipeline.
 
 Holder of the IBM Generative AI Engineering Professional Certificate plus 35+ AI / Data Science credentials. Available for remote AI engineering roles across Australia, open to relocating to Melbourne.
 
@@ -23,10 +23,13 @@ Holder of the IBM Generative AI Engineering Professional Certificate plus 35+ AI
 **[Margaret River Wine Sommelier](https://web-production-82a23.up.railway.app/app)** — Production multi-tenant RAG system serving 15 Margaret River wineries from a single FastAPI backend; each winery has a dedicated ChromaDB collection trained on real catalogues, tasting notes, awards and menus. Claude generates structured sommelier responses with confidence scores, food pairings and source citations.
 `Python · FastAPI · ChromaDB · vector search · Claude API · Railway`
 
+**[AI Finance Insights](https://github.com/anihc1978/ai-finance-insights)** — Full-stack GenAI personal-finance app: a decoupled React (Vite/TS) SPA and FastAPI backend over Supabase Postgres with Auth and per-user Row-Level Security. Claude auto-categorises transactions (Haiku) and writes plain-English monthly insights with anomaly and subscription flags (Sonnet), plus a recency-weighted next-month spend forecast.
+`Python · FastAPI · React · TypeScript · Supabase · Postgres + RLS · Claude (Haiku + Sonnet)`
+
 **[TutorMate AI — Workflow Orchestrator](https://tutormate-workflow-production.up.railway.app)** — AI workflow orchestrator automating inbound message triage for an EdTech platform: Claude classifies intent, urgency and sentiment, extracts entities, routes via a configurable business-rules engine, and drafts a personalised reply. 5-step pipeline across 7 intent categories with dashboard, analytics and audit trail.
 `Python · FastAPI · Claude (Haiku) · SQLite · Railway`
 
-**[Agentic RAG](https://agentic-rag-ai.vercel.app)** — Document search agent where Claude autonomously selects and calls tools (list_files, grep, read_file) — no pre-embedding or vector DB required. Stateless API designed for Vercel serverless constraints.
+**[Agentic RAG](https://agentic-rag-roan.vercel.app)** — Document search agent where Claude autonomously selects and calls tools (list_files, grep, read_file) — no pre-embedding or vector DB required. Stateless API designed for Vercel serverless constraints.
 `Python · Claude API · Vercel`
 
 **Also shipped:** Self-Improving Agent · Memory Agent (Mem0) · AI Email Client (PWA) · YouTube Transcript Analyzer (MCP server) · RAG Document Q&A
