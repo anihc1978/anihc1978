@@ -2,7 +2,7 @@
 
 # Eduardo San Martín Wu
 
-### AI Engineer · Python / Back-End Developer · Generative AI Specialist
+### Generative AI Engineer · Python / Back-End Developer · Agentic AI Specialist
 
 [![Email](https://img.shields.io/badge/Email-eduardosmw%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:eduardosmw@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-eduardo--sanmartin--wu-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/eduardo-sanmartin-wu)
@@ -12,58 +12,77 @@
 
 ---
 
-AI Engineer & Consultant with 5 years building production LLM applications, agentic AI systems, and Generative AI solutions. I specialise in production back-end service engineering, API design, prompt engineering, LLM orchestration, RAG pipelines, and Google Cloud AI / Vertex AI. I have shipped 9 AI projects, including a production multi-tenant RAG sommelier system, a full-stack GenAI finance app, and an AI workflow orchestrator, and I am currently building a CPG demand forecasting pipeline.
+Generative AI engineer specialising in production LLM applications, RAG systems, and agentic AI, with a portfolio of 10+ shipped projects built directly on the Anthropic Claude SDK behind a model-agnostic, provider-swappable design. Strong Python back-end engineering (FastAPI, REST, SSE streaming), plus a working command of classical ML (XGBoost, LightGBM, Prophet). Early adopter of generative AI since 2022, with roughly two years focused on building and deploying production LLM systems, on a founder background in Web3 and e-commerce.
 
-Holder of the IBM Generative AI Engineering Professional Certificate plus 35+ AI / Data Science credentials. Available for remote AI engineering roles across Australia, open to relocating to Melbourne.
+Holder of the IBM Generative AI Engineering Professional Certificate plus 35+ AI / Data-Science credentials. Perth-based; available immediately; open to relocating within Australia for the right role.
 
 ---
 
 ## Featured Projects
 
-**[Margaret River Wine Sommelier](https://web-production-82a23.up.railway.app/app)** — Production multi-tenant RAG system serving 15 Margaret River wineries from a single FastAPI backend; each winery has a dedicated ChromaDB collection trained on real catalogues, tasting notes, awards and menus. Claude generates structured sommelier responses with confidence scores, food pairings and source citations.
-`Python · FastAPI · ChromaDB · vector search · Claude API · Railway`
+**[Margaret River Wine Sommelier](https://github.com/anihc1978/margaret-river-sommelier)** — Deployed multi-tenant RAG (FastAPI, ChromaDB, Claude Haiku) with per-winery collection isolation; citations are built in code from retrieval metadata so the model cannot fabricate a source.
+`Python · FastAPI · ChromaDB · Claude Haiku · Railway`
 
-**[AI Finance Insights](https://github.com/anihc1978/ai-finance-insights)** — Full-stack GenAI personal-finance app: a decoupled React (Vite/TS) SPA and FastAPI backend over Supabase Postgres with Auth and per-user Row-Level Security. Claude auto-categorises transactions (Haiku) and writes plain-English monthly insights with anomaly and subscription flags (Sonnet), plus a recency-weighted next-month spend forecast.
-`Python · FastAPI · React · TypeScript · Supabase · Postgres + RLS · Claude (Haiku + Sonnet)`
-
-**[TutorMate AI — Workflow Orchestrator](https://tutormate-workflow-production.up.railway.app)** — AI workflow orchestrator automating inbound message triage for an EdTech platform: Claude classifies intent, urgency and sentiment, extracts entities, routes via a configurable business-rules engine, and drafts a personalised reply. 5-step pipeline across 7 intent categories with dashboard, analytics and audit trail.
+**[TutorMate Workflow Orchestrator](https://github.com/anihc1978/tutormate-workflow)** — Inbound-message triage automation: a 5-step pipeline (extract → classify → enrich → route → draft) over 7 intents, where a deterministic JSON rules engine makes every routing decision and Claude only drafts a reply for a human to approve; SQLite dashboard with review queue and audit trail.
 `Python · FastAPI · Claude (Haiku) · SQLite · Railway`
 
-**[Agentic RAG](https://agentic-rag-roan.vercel.app)** — Document search agent where Claude autonomously selects and calls tools (list_files, grep, read_file) — no pre-embedding or vector DB required. Stateless API designed for Vercel serverless constraints.
+**[Agentic RAG](https://agentic-rag-ai.vercel.app)** — Document Q&A where Claude autonomously calls read-only tools (list_files, grep, read_file) instead of a vector store; no vector DB, no pre-embedding, stateless serverless.
 `Python · Claude API · Vercel`
 
-**Also shipped:** Self-Improving Agent · Memory Agent (Mem0) · AI Email Client (PWA) · YouTube Transcript Analyzer (MCP server) · RAG Document Q&A
+**[AI Finance Insights](https://ai-finance-insights.netlify.app)** — Full-stack GenAI personal-finance app: bilingual ES/EN, rules-first auto-categorisation, and a hardened API (Supabase RLS, CORS allow-list, per-user rate limiting). Live private beta.
+`Python · FastAPI · React · TypeScript · Supabase · Claude`
 
-**In progress:** `cpg-demand-forecaster` — CPG demand forecasting on M5 / Walmart sell-out data (XGBoost, LightGBM, Prophet, WMAPE benchmarking).
+**[AI Signal](https://github.com/anihc1978/ai-signal-news)** — Open-source AI news aggregator: a single-page app backed by a dependency-free Netlify serverless function curating 16 trusted feeds (AI labs, arXiv, newsletters), plus an optional Claude-generated weekly digest.
+
+**Also:** Self-Improving Agent · Memory Agent (Mem0) · AI Email Client (PWA) · YouTube Transcript Analyzer (MCP server) · RAG Document Q&A
 
 ---
 
-## Technical Skills
+## Core Competencies
 
-**AI & LLMs** — Python (5 yrs) · LLMs · Generative AI · Prompt Engineering (zero-shot, few-shot, CoT) · Agentic AI · RAG · LLM orchestration · OpenAI · Gemini · Claude / Anthropic · MCP servers (FastMCP) · Mem0
+**GenAI & LLMs** — Python · RAG · agentic AI · prompt engineering (zero-/few-shot, chain-of-thought) · LLM orchestration · Anthropic Claude SDK · MCP servers (FastMCP) · Mem0; familiar with the OpenAI and Gemini APIs.
 
-**ML & Data Science** — scikit-learn · XGBoost · LightGBM · Prophet · time-series forecasting · WMAPE · EDA · feature engineering · pandas · NumPy · matplotlib · Jupyter
+**Back-end & Infra** — FastAPI · Flask · REST APIs · SSE streaming · ChromaDB · SQLite · PWA · Railway · Vercel · Docker (in progress) · GitHub Actions CI/CD.
 
-**Cloud & Infra** — Google Cloud AI · Vertex AI · Railway · Vercel · ChromaDB · Docker · GitHub Actions CI/CD · FastAPI · Flask · Next.js · Streamlit · REST APIs · SSE streaming · PWA
+**ML & Data Science** — scikit-learn · XGBoost · LightGBM · Prophet · time-series forecasting · pandas · NumPy · feature engineering.
 
-**Dev Tools** — Cursor · VS Code · Git · GitHub · Jupyter · venv · uv · ruff · dotenv · OOP
+**Cloud & Tooling** — Google Cloud AI · Vertex AI · Git · Cursor · Claude Code · uv · ruff.
 
-**Web3** — Solidity · smart contracts · NFT minting · MetaMask · Coinbase Wallet · OpenSea · Shopify · tokengated commerce
+**Web3** — Solidity · smart contracts · NFT minting · Shopify · tokengated commerce.
 
-**Languages** — English (native) · Spanish (fluent)
+**Languages** — English (native) · Spanish (native)
+
+---
+
+## Professional Experience
+
+**AI Engineer & Consultant** — Independent · Perth, WA (remote-first) · 2022 – Present
+- Build and deploy production LLM applications in Python — RAG pipelines, agentic tool-use systems, and multi-step LLM orchestration — on FastAPI back-ends, primarily on the Anthropic Claude SDK with a provider-swappable design.
+- Design prompt-engineering workflows (zero-shot, few-shot, chain-of-thought) and agentic pipelines automating multi-step content and operations tasks for consulting clients.
+- Building `cpg-demand-forecaster`: a demand-forecasting pipeline on M5 / Walmart sell-out data (XGBoost, LightGBM, Prophet, WMAPE benchmarking) — in progress, 2026.
+
+**Founder — Web3 & NFT Platform** — Elevationart.io · Lima, Peru · 2021 – 2024
+- Founded one of Peru's first Web3 digital-art platforms; onboarded 10 artists and built a community of 200+ collectors across OpenSea and Magic Eden.
+- Wrote and deployed Solidity smart contracts to mint NFTs, define ownership rules, and enable primary on-chain sales.
+- Built a Shopify-integrated NFT storefront with tokengated commerce and airdrop campaigns; partnered with Verisart (UK/USA) to issue blockchain Certificates of Authenticity.
+
+---
+
+## Education
+
+- Bachelor of Business Administration, Entrepreneurship & Innovation — Bond University, QLD (2014–2016)
 
 ---
 
 ## Certifications — Top Credentials
 
-- **IBM Generative AI Engineering Professional Certificate** — IBM
-- **IBM AI Product Manager Professional Certificate** — IBM
-- IBM Machine Learning with Python · IBM Data Analysis with Python · IBM Python for Data Science, AI & Development
-- AI Agents in LangGraph · ChatGPT Prompt Engineering for Developers — DeepLearning.AI
-- Google AI Essentials · Google Prompting Essentials — Google
+- IBM Generative AI Engineering Professional Certificate (2026)
+- IBM AI Product Manager Professional Certificate (2026)
+- IBM Machine Learning with Python
+- AI Agents in LangGraph — DeepLearning.AI
 - Generative AI Leader Professional Certificate — Google Cloud
 
-Plus 26+ additional credentials from IBM, Google, Google Cloud, DeepLearning.AI and Kaggle. Full list on [LinkedIn](https://linkedin.com/in/eduardo-sanmartin-wu).
+35+ AI / Data-Science credentials in total from IBM, Google, Google Cloud, DeepLearning.AI and Kaggle. Full list on [LinkedIn](https://linkedin.com/in/eduardo-sanmartin-wu).
 
 ---
 
