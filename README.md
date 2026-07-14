@@ -42,11 +42,11 @@ Holder of the IBM Generative AI Engineering Professional Certificate plus 35+ AI
 
 **GenAI & LLMs** — Python · RAG · agentic AI · prompt engineering (zero-/few-shot, chain-of-thought) · LLM orchestration · Anthropic Claude SDK · MCP servers (FastMCP) · Mem0; familiar with the OpenAI and Gemini APIs.
 
-**Back-end & Infra** — FastAPI · Flask · REST APIs · SSE streaming · ChromaDB · SQLite · PWA · Railway · Vercel · Docker (in progress) · GitHub Actions CI/CD.
+**Back-end & Infra** — FastAPI · Flask · REST APIs · SSE streaming · ChromaDB · SQLite · PWA · Railway · Vercel · Docker · GitHub Actions CI/CD.
 
 **ML & Data Science** — scikit-learn · XGBoost · LightGBM · Prophet · time-series forecasting · pandas · NumPy · feature engineering.
 
-**Cloud & Tooling** — Google Cloud AI · Vertex AI · Git · Cursor · Claude Code · uv · ruff.
+**Cloud & Tooling** — Google Cloud AI · Vertex AI · Antigravity· Git · Cursor · Claude Code · uv · ruff.
 
 **Web3** — Solidity · smart contracts · NFT minting · Shopify · tokengated commerce.
 
